@@ -1,0 +1,46 @@
+table{
+    margin: 0 auto;
+}
+th,td{
+    padding: 10px;
+}
+td img{
+    width:150px;
+    object-fit: contain;
+    }
+    table,td,tr,td,th{
+    border:1px solid rgba(40, 54, 25,.5);
+    border-collapse: collapse;
+    }
+th,td{
+    color:rgb(40, 54, 25)
+}
+.statusUl{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.statusUl li,button{
+    list-style: none;
+    cursor: pointer;
+    border: 3px outset rgba(40, 54, 25,.5);
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(213, 210, 165);
+    color: rgb(40, 54, 25);
+}
+li a{
+    text-decoration: none;
+}
+.statusUl li:hover{
+    background-color: rgb(40, 54, 25);
+    color: rgb(213, 210, 165);
+}
+.statusUl .activeStatusLi {
+    background-color: rgb(80, 150, 5);
+    color: rgb(246, 245, 239);
+}
+.displayStatus{
+    display:none
+}
